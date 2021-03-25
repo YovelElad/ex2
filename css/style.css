@@ -1,0 +1,249 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+}
+
+header, main, footer, nav, section, div {
+    display: block;
+}
+
+
+header {
+    width: 100%;
+    height: 657px;
+    padding-left:50px ;
+    padding-top: 59px;
+    background-color: #ED4C5C;
+    
+}
+
+h2 {
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mainPic {
+    margin-top: 45px;
+    margin-left: 49px;
+    border-radius: 15px;
+}
+
+
+#logo span {
+    font-size: 18px;
+    color: #ffffff;
+     margin-left: 25px; 
+}
+
+#logo {
+    background-image: url("../images/guitar-16.ico");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+nav {
+    margin-top: 48px; 
+}
+
+nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+
+nav a:hover {
+    color: #525352;
+}
+
+button {
+    background-color: #ffffff;
+    width: 160px;
+    height: 50px;
+    margin-top: 45px;
+    color: #ED4C5C;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border-color: white;
+}
+
+#main {
+    background-color: #ffffff;
+    width: 100%;
+    height: 657px;
+    padding-left:50px ;
+    padding-top: 57px;
+}
+
+#main p {
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    width: 445px;
+    height: 83px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+#main a {
+    color: #ED4C5C;
+    margin-top: 20px;
+    margin-bottom: 41px;
+    display: block;
+
+}
+
+#main section img {
+    margin-left: 0;
+    margin-right: 30px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.rectangle {
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color:#ffffff;
+    margin-top: -40px;
+    margin-right: 30px;
+    border-radius: 8px;
+    float: left;
+}
+
+.rectangle1 {
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color:#ffffff;
+    margin-top: -40px;
+    margin-left: 385px;
+    border-radius: 8px;
+    float: left;
+}
+
+.rectangle2 {
+    position: absolute;
+    height: 40px;
+    width: 350px;
+    background-color:#ffffff;
+    margin-top: -40px;
+    margin-left: 768px;
+    border-radius: 8px;
+}
+
+#main section p {
+    position: absolute;
+    margin-top: -47px;
+    display: block;
+     width: 100px;
+}
+
+#main section p.ESP {
+    margin-left: 137px;
+}
+
+#main section p.Gibson {
+    margin-left: 510px;
+}
+
+#main section p.Fender {
+    margin-left: 900px;
+} 
+
+#wishes {
+    background-color: #F5F4F4;
+    height: 657px;
+    width: 100%;
+    padding-left:50px ;
+    padding-top: 57px;
+}
+
+
+#wishes a{
+    display: block;
+    position: relative;
+    height: 226px;
+    width: 255px;
+    background-color:#ffffff;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-radius: 8px;
+    z-index: 0;
+    float: left;
+}
+
+#wishes a img {
+    margin-top: 70px;
+    margin-left: 104px;
+
+}
+
+#wishes a h3 {
+    margin-top: 13px;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 255px;
+    text-align: center;
+}
+
+#wishes a p {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #ED4C5C;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+footer a.face {
+    background-image: url(../images/facebook-3-24.ico);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    display: block;
+    float: left;
+}
+
+footer a.insta {
+    background-image: url(../images/instagram-24.ico);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 26px;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin-left: 28px;
+}
+
+footer a.twitter {
+    background-image: url(../images/twitter-3-24.png);
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+    display: block;
+    float: left;
+    margin-left: 28px;
+}
+
+footer p{
+    font-size: 24px;
+    color: #ffffff;
+    float: left;
+    margin-left: 80px;
+}
+
